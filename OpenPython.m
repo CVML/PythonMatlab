@@ -4,9 +4,6 @@ function [data_processed]= Data_Analysis(pythonscript, filename)
 
 % The input arguments will be the name of the files we want to analyse
 
-% [filename,pathname] = uigetfile('*.m','Select the MATLAB code file');
-%filename='nas/nas-li20-pm00/E217/2015/20150504/E217_16808/E217_16808.mat'
-
 command = ['python3 ' pythonscript ' ' filename]
 system(command);
 

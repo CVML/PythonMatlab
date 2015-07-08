@@ -8,6 +8,12 @@ Welcome to Python Matlab's documentation!
 
 Contents:
 
+============
+Introduction
+===========
+
+This is a project to take data from Matlab, analyse it using python and then pass the processed data back to Matlab.
+
 .. toctree::
    :maxdepth: 2
 

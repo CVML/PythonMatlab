@@ -1,4 +1,4 @@
-function [data_processed]= Data_Analysis(pythonscript, filename)
+function [data_processed]= Data_Analysis(pythonscript, filename, data)
 
 % - A function that calls the python program data_analysis.py - 
 

@@ -23,4 +23,4 @@ data = E200_load_data(datapath);
 % Call python analysis script
 % (example.py)
 % ===============================
-data = OpenPython('example.py', datapath)
+data = OpenPython('example.py', datapath, data)

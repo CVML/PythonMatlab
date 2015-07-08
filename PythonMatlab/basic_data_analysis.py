@@ -45,7 +45,7 @@ def LoadinMatlab(data_imported):
                 data_processed['arrays'][x]['data'] = data_imported[x]
                 data_processed['arrays'][x]['UID']  = theuuid
 
-            elif data_imported[x].shape==(size,size):    #images
+            elif data_imported[x].shape == (size, size):    # images
                 if 'images' not in data_processed.keys():
                     data_processed['images'] = {}
                 data_processed['images'][x]         = {}
@@ -59,7 +59,7 @@ def LoadinMatlab(data_imported):
     # -Part 3 - This is were we load the data into matlab
 
     io.savemat('struct_test2.mat', data_processed)
-        #with open('struct_test2.mat', 'ab') as f:
-        #io.savemat(f, {'newdata3': np.arange(12)})
+    # with open('struct_test2.mat', 'ab') as f:
+    # io.savemat(f, {'newdata3': np.arange(12)})
 
     # -End of the program:

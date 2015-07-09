@@ -18,7 +18,10 @@ This is a project to take data from Matlab, analyse it using python and then pas
    :maxdepth: 2
 
    About-the-author
-
+   How_to_install
+   Tutorial
+   FAQs
+   
 
 Indices and tables
 ==================

@@ -3,3 +3,6 @@ __pycache__
 *.mat
 *.pyc
 *.egg-info
+docs/build/
+docs/source/_static/
+docs/source/_templates/

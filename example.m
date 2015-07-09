@@ -11,13 +11,13 @@ path = fullfile(home, 'testbed', 'E200_DRT', 'E200_data');
 % ===============================
 % Add E200_data to path
 % ===============================
-addpath(path);
+% addpath(path);
 
 % ===============================
 % Load a data file
 % ===============================
-datapath = 'nas/nas-li20-pm00/E200/2015/20150605/E200_17902/E200_17902.mat'
-data = E200_load_data(datapath);
+datapath = 'nas/nas-li20-pm00/E217/2015/20150504/E217_16808/E217_16808.mat'
+data = E200_load_data(datapath)
 
 % ===============================
 % Call python analysis script

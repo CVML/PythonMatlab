@@ -12,7 +12,7 @@ Contents:
 Introduction
 ============
 
-This is a project to take data from Matlab, analyse it using python and then pass the processed data back to Matlab.
+This is a project to take data from Matlab, analyse it using python and then pass the processed data back to Matlab. Check the Tutorial to run through an example and sees how it works. Check the ProgramDescription to see the main scripts and how you can adapt them to your needs.
 
 .. toctree::
    :maxdepth: 2
@@ -21,7 +21,7 @@ This is a project to take data from Matlab, analyse it using python and then pas
    How_to_install
    Tutorial
    FAQs
-   
+   ProgramDescription   
 
 Indices and tables
 ==================

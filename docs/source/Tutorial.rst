@@ -32,7 +32,7 @@ example.m
 ----------
 This file loads in the workspace a bunch of data that comes from the specified folder. In our case, it is E217_16808.mat files. Note that we use a specific way to load data, with "E200_load_data" which is required because of the nature of the files we load. (with ordinary files, you can just use "load).
 
-Then we call the "OpenPython" script, giving to it as input "example.py, the datapath of the files we want to analyse and the data.
+Then we call the "OpenPython" script, giving to it as input "example.py", the "datapath" of the files we want to analyse and the "data".
 
 ----------
 OpenPython
@@ -47,7 +47,7 @@ Note that the
 ----------
 example.py
 ----------
-This file runs the python analysis of the data passed as input which can not be made easily with Matlab.
+This file runs the python analysis of the data passed as input.
 
 It then loads the output to Matlab using the function LoadinMatlab from the basic_data_analysis python script.
 

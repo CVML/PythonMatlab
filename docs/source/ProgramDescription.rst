@@ -25,11 +25,11 @@ basic_data_analysis.py
 This file coutains a python function called LoadinMatlab that takes as input a dictionary of data and transfers it to Matlab.
 
 To use it : 
-* import it in your analysing python script
-* at the end of your program, create a dictionary which countains : 
-    * the uids of your data, with "muuid" as the name of the key
-    * the output, whose keys'names must begin with "my"
-* calls the LoadinMatlab function with your dictionary of output(s)
+    * import it in your analysing python script
+    * at the end of your program, create a dictionary which countains : 
+        * the uids of your data, with "muuid" as the name of the key
+        * the output, whose keys'names must begin with "my"
+    * calls the LoadinMatlab function with your dictionary of output(s)
 
 Outputs can be of four different types : scalars, vectors, arrays or images. They will be automatically sorted by types. There will be an array of uids that goes along with every output.
 

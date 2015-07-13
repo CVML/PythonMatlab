@@ -20,7 +20,7 @@ You will see various instructions in the Command Window, and the creation of fou
 Explanations
 ============
 
-For each filed, we will first describe what is its general purpose, and what it does in our example.
+The following lines are intended to explain, step by step, what the code did. It also provides a short description of the general purpose of each used file.
 
 -------------
 run_matlab.py

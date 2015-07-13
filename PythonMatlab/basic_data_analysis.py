@@ -6,7 +6,6 @@
 
 import scipy.io as io
 import numpy as np
-# import sys
 import ipdb  # noqa
 
 
@@ -52,14 +51,13 @@ def LoadinMatlab(data_imported):
                 data_processed['images'][x]['data'] = data_imported[x]
                 data_processed['images'][x]['UID']  = theuuid
 
-    # WARNING ! THERE CAN BE NO EMPTY DICTIONARY IF SAVEMAT IS TO WORK
-        
-    print(data_processed)
-
+    # The dynamic allocation of dictionaries makes it impossible to create an empty dictionary ; this would cause trouble with "savemat".
+   
     # -Part 3 - This is were we load the data into matlab
 
     io.savemat('struct_test2.mat', data_processed)
     # with open('struct_test2.mat', 'ab') as f:
     # io.savemat(f, {'newdata3': np.arange(12)})
+    # These two lines can be used if the user wants to pass the processed data in an already existing document.
 
     # -End of the program:

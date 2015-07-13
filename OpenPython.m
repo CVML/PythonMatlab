@@ -4,7 +4,6 @@ function [data_processed]= OpenPython(pythonscript, filename)
 % 'pythonscript' : the name of the python script you want to use to make
 % the analysis
 % 'filename' : the name of the Matlab files you want to analyse
-% 'data' : 
 
 command = ['python3 ' pythonscript ' ' filename]
 system(command);
